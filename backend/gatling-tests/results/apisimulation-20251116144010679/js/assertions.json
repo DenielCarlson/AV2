@@ -1,0 +1,10 @@
+{
+  "simulation": "simulations.ApiSimulation",
+  "simulationId": "apisimulation",
+  "start": 1763304010679,
+  "description": "",
+  "scenarios": ["Carga API + Keycloak"],
+  "assertions": [
+
+  ]
+}

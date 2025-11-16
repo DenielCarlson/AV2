@@ -1,0 +1,351 @@
+RUN	simulations.ApiSimulation	apisimulation	1763304010679	 	3.2.1
+USER	Carga API + Keycloak	1	START	1763304011379	1763304011379
+REQUEST	1		Keycloak - Obter Token	1763304011422	1763304011430	KO	i.n.c.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:8081
+ERROR	GET /alunos: Failed to build request: No attribute named 'token' is defined 	1763304011467
+USER	Carga API + Keycloak	2	START	1763304011721	1763304011721
+REQUEST	2		Keycloak - Obter Token	1763304011723	1763304011750	KO	i.n.c.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:8081
+ERROR	GET /alunos: Failed to build request: No attribute named 'token' is defined 	1763304011754
+USER	Carga API + Keycloak	3	START	1763304012060	1763304012060
+REQUEST	3		Keycloak - Obter Token	1763304012062	1763304012071	KO	i.n.c.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:8081
+ERROR	GET /alunos: Failed to build request: No attribute named 'token' is defined 	1763304012075
+USER	Carga API + Keycloak	4	START	1763304012390	1763304012390
+REQUEST	4		Keycloak - Obter Token	1763304012391	1763304012393	KO	i.n.c.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:8081
+ERROR	GET /alunos: Failed to build request: No attribute named 'token' is defined 	1763304012394
+ERROR	POST /alunos: Failed to build request: No attribute named 'token' is defined 	1763304012472
+ERROR	POST /alunos: Failed to build request: No attribute named 'token' is defined 	1763304012771
+USER	Carga API + Keycloak	5	START	1763304012890	1763304012890
+REQUEST	5		Keycloak - Obter Token	1763304012892	1763304012897	KO	i.n.c.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:8081
+ERROR	GET /alunos: Failed to build request: No attribute named 'token' is defined 	1763304012898
+ERROR	POST /alunos: Failed to build request: No attribute named 'token' is defined 	1763304013090
+USER	Carga API + Keycloak	6	START	1763304013390	1763304013390
+REQUEST	6		Keycloak - Obter Token	1763304013391	1763304013395	KO	i.n.c.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:8081
+ERROR	GET /alunos: Failed to build request: No attribute named 'token' is defined 	1763304013397
+ERROR	POST /alunos: Failed to build request: No attribute named 'token' is defined 	1763304013411
+ERROR	GET /cursos: Failed to build request: No attribute named 'token' is defined 	1763304013470
+USER	Carga API + Keycloak	7	START	1763304013719	1763304013719
+REQUEST	7		Keycloak - Obter Token	1763304013721	1763304013726	KO	i.n.c.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:8081
+ERROR	GET /alunos: Failed to build request: No attribute named 'token' is defined 	1763304013729
+ERROR	GET /cursos: Failed to build request: No attribute named 'token' is defined 	1763304013780
+ERROR	POST /alunos: Failed to build request: No attribute named 'token' is defined 	1763304013910
+USER	Carga API + Keycloak	8	START	1763304014050	1763304014050
+REQUEST	8		Keycloak - Obter Token	1763304014052	1763304014053	KO	i.n.c.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:8081
+ERROR	GET /alunos: Failed to build request: No attribute named 'token' is defined 	1763304014057
+ERROR	GET /cursos: Failed to build request: No attribute named 'token' is defined 	1763304014100
+USER	Carga API + Keycloak	9	START	1763304014390	1763304014390
+REQUEST	9		Keycloak - Obter Token	1763304014391	1763304014393	KO	i.n.c.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:8081
+ERROR	GET /alunos: Failed to build request: No attribute named 'token' is defined 	1763304014396
+ERROR	POST /alunos: Failed to build request: No attribute named 'token' is defined 	1763304014411
+ERROR	GET /cursos: Failed to build request: No attribute named 'token' is defined 	1763304014420
+ERROR	POST /cursos: Failed to build request: No attribute named 'token' is defined 	1763304014470
+USER	Carga API + Keycloak	1	END	1763304011379	1763304014472
+ERROR	POST /alunos: Failed to build request: No attribute named 'token' is defined 	1763304014740
+ERROR	POST /cursos: Failed to build request: No attribute named 'token' is defined 	1763304014780
+USER	Carga API + Keycloak	2	END	1763304011721	1763304014781
+USER	Carga API + Keycloak	10	START	1763304014891	1763304014891
+REQUEST	10		Keycloak - Obter Token	1763304014893	1763304014896	KO	i.n.c.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:8081
+ERROR	GET /alunos: Failed to build request: No attribute named 'token' is defined 	1763304014901
+ERROR	GET /cursos: Failed to build request: No attribute named 'token' is defined 	1763304014920
+ERROR	POST /alunos: Failed to build request: No attribute named 'token' is defined 	1763304015070
+ERROR	POST /cursos: Failed to build request: No attribute named 'token' is defined 	1763304015100
+USER	Carga API + Keycloak	3	END	1763304012060	1763304015101
+USER	Carga API + Keycloak	11	START	1763304015390	1763304015390
+REQUEST	11		Keycloak - Obter Token	1763304015392	1763304015394	KO	i.n.c.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:8081
+ERROR	GET /alunos: Failed to build request: No attribute named 'token' is defined 	1763304015398
+ERROR	POST /alunos: Failed to build request: No attribute named 'token' is defined 	1763304015410
+ERROR	POST /cursos: Failed to build request: No attribute named 'token' is defined 	1763304015420
+ERROR	GET /cursos: Failed to build request: No attribute named 'token' is defined 	1763304015420
+USER	Carga API + Keycloak	4	END	1763304012390	1763304015421
+USER	Carga API + Keycloak	12	START	1763304015720	1763304015720
+REQUEST	12		Keycloak - Obter Token	1763304015722	1763304015725	KO	i.n.c.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:8081
+ERROR	GET /alunos: Failed to build request: No attribute named 'token' is defined 	1763304015730
+ERROR	GET /cursos: Failed to build request: No attribute named 'token' is defined 	1763304015750
+ERROR	POST /cursos: Failed to build request: No attribute named 'token' is defined 	1763304015920
+ERROR	POST /alunos: Failed to build request: No attribute named 'token' is defined 	1763304015920
+USER	Carga API + Keycloak	5	END	1763304012890	1763304015920
+USER	Carga API + Keycloak	13	START	1763304016049	1763304016049
+REQUEST	13		Keycloak - Obter Token	1763304016050	1763304016051	KO	i.n.c.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:8081
+ERROR	GET /alunos: Failed to build request: No attribute named 'token' is defined 	1763304016052
+ERROR	GET /cursos: Failed to build request: No attribute named 'token' is defined 	1763304016080
+USER	Carga API + Keycloak	14	START	1763304016389	1763304016389
+REQUEST	14		Keycloak - Obter Token	1763304016390	1763304016391	KO	i.n.c.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:8081
+ERROR	GET /alunos: Failed to build request: No attribute named 'token' is defined 	1763304016392
+ERROR	POST /cursos: Failed to build request: No attribute named 'token' is defined 	1763304016420
+ERROR	POST /alunos: Failed to build request: No attribute named 'token' is defined 	1763304016420
+ERROR	GET /cursos: Failed to build request: No attribute named 'token' is defined 	1763304016421
+USER	Carga API + Keycloak	6	END	1763304013390	1763304016421
+ERROR	POST /alunos: Failed to build request: No attribute named 'token' is defined 	1763304016751
+ERROR	POST /cursos: Failed to build request: No attribute named 'token' is defined 	1763304016751
+USER	Carga API + Keycloak	7	END	1763304013719	1763304016752
+USER	Carga API + Keycloak	15	START	1763304016890	1763304016890
+REQUEST	15		Keycloak - Obter Token	1763304016892	1763304016896	KO	i.n.c.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:8081
+ERROR	GET /alunos: Failed to build request: No attribute named 'token' is defined 	1763304016900
+ERROR	GET /cursos: Failed to build request: No attribute named 'token' is defined 	1763304016921
+ERROR	POST /alunos: Failed to build request: No attribute named 'token' is defined 	1763304017070
+ERROR	POST /cursos: Failed to build request: No attribute named 'token' is defined 	1763304017080
+USER	Carga API + Keycloak	8	END	1763304014050	1763304017081
+USER	Carga API + Keycloak	16	START	1763304017390	1763304017390
+REQUEST	16		Keycloak - Obter Token	1763304017391	1763304017392	KO	i.n.c.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:8081
+ERROR	GET /alunos: Failed to build request: No attribute named 'token' is defined 	1763304017394
+ERROR	POST /alunos: Failed to build request: No attribute named 'token' is defined 	1763304017411
+ERROR	GET /cursos: Failed to build request: No attribute named 'token' is defined 	1763304017420
+ERROR	POST /cursos: Failed to build request: No attribute named 'token' is defined 	1763304017420
+USER	Carga API + Keycloak	9	END	1763304014390	1763304017420
+USER	Carga API + Keycloak	17	START	1763304017720	1763304017720
+REQUEST	17		Keycloak - Obter Token	1763304017720	1763304017721	KO	i.n.c.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:8081
+ERROR	GET /alunos: Failed to build request: No attribute named 'token' is defined 	1763304017725
+ERROR	GET /cursos: Failed to build request: No attribute named 'token' is defined 	1763304017750
+ERROR	POST /alunos: Failed to build request: No attribute named 'token' is defined 	1763304017911
+ERROR	POST /cursos: Failed to build request: No attribute named 'token' is defined 	1763304017921
+USER	Carga API + Keycloak	10	END	1763304014891	1763304017922
+USER	Carga API + Keycloak	18	START	1763304018050	1763304018050
+REQUEST	18		Keycloak - Obter Token	1763304018052	1763304018056	KO	i.n.c.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:8081
+ERROR	GET /alunos: Failed to build request: No attribute named 'token' is defined 	1763304018060
+ERROR	GET /cursos: Failed to build request: No attribute named 'token' is defined 	1763304018083
+USER	Carga API + Keycloak	19	START	1763304018391	1763304018391
+REQUEST	19		Keycloak - Obter Token	1763304018393	1763304018396	KO	i.n.c.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:8081
+ERROR	GET /alunos: Failed to build request: No attribute named 'token' is defined 	1763304018400
+ERROR	POST /alunos: Failed to build request: No attribute named 'token' is defined 	1763304018411
+ERROR	GET /cursos: Failed to build request: No attribute named 'token' is defined 	1763304018421
+ERROR	POST /cursos: Failed to build request: No attribute named 'token' is defined 	1763304018421
+USER	Carga API + Keycloak	11	END	1763304015390	1763304018422
+ERROR	POST /alunos: Failed to build request: No attribute named 'token' is defined 	1763304018741
+ERROR	POST /cursos: Failed to build request: No attribute named 'token' is defined 	1763304018752
+USER	Carga API + Keycloak	12	END	1763304015720	1763304018754
+USER	Carga API + Keycloak	20	START	1763304018890	1763304018890
+REQUEST	20		Keycloak - Obter Token	1763304018892	1763304018895	KO	i.n.c.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:8081
+ERROR	GET /alunos: Failed to build request: No attribute named 'token' is defined 	1763304018901
+ERROR	GET /cursos: Failed to build request: No attribute named 'token' is defined 	1763304018921
+ERROR	POST /cursos: Failed to build request: No attribute named 'token' is defined 	1763304019071
+USER	Carga API + Keycloak	13	END	1763304016049	1763304019073
+ERROR	POST /alunos: Failed to build request: No attribute named 'token' is defined 	1763304019080
+USER	Carga API + Keycloak	21	START	1763304019390	1763304019390
+REQUEST	21		Keycloak - Obter Token	1763304019392	1763304019393	KO	i.n.c.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:8081
+ERROR	GET /alunos: Failed to build request: No attribute named 'token' is defined 	1763304019395
+ERROR	POST /alunos: Failed to build request: No attribute named 'token' is defined 	1763304019410
+ERROR	GET /cursos: Failed to build request: No attribute named 'token' is defined 	1763304019420
+ERROR	POST /cursos: Failed to build request: No attribute named 'token' is defined 	1763304019420
+USER	Carga API + Keycloak	14	END	1763304016389	1763304019420
+USER	Carga API + Keycloak	22	START	1763304019720	1763304019720
+REQUEST	22		Keycloak - Obter Token	1763304019722	1763304019725	KO	i.n.c.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:8081
+ERROR	GET /alunos: Failed to build request: No attribute named 'token' is defined 	1763304019729
+ERROR	GET /cursos: Failed to build request: No attribute named 'token' is defined 	1763304019751
+ERROR	POST /cursos: Failed to build request: No attribute named 'token' is defined 	1763304019921
+USER	Carga API + Keycloak	15	END	1763304016890	1763304019923
+ERROR	POST /alunos: Failed to build request: No attribute named 'token' is defined 	1763304019931
+USER	Carga API + Keycloak	23	START	1763304020051	1763304020051
+REQUEST	23		Keycloak - Obter Token	1763304020052	1763304020054	KO	i.n.c.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:8081
+ERROR	GET /alunos: Failed to build request: No attribute named 'token' is defined 	1763304020056
+ERROR	GET /cursos: Failed to build request: No attribute named 'token' is defined 	1763304020081
+USER	Carga API + Keycloak	24	START	1763304020390	1763304020390
+REQUEST	24		Keycloak - Obter Token	1763304020391	1763304020391	KO	i.n.c.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:8081
+ERROR	GET /alunos: Failed to build request: No attribute named 'token' is defined 	1763304020393
+ERROR	POST /alunos: Failed to build request: No attribute named 'token' is defined 	1763304020410
+ERROR	POST /cursos: Failed to build request: No attribute named 'token' is defined 	1763304020420
+ERROR	GET /cursos: Failed to build request: No attribute named 'token' is defined 	1763304020420
+USER	Carga API + Keycloak	16	END	1763304017390	1763304020420
+ERROR	POST /alunos: Failed to build request: No attribute named 'token' is defined 	1763304020740
+ERROR	POST /cursos: Failed to build request: No attribute named 'token' is defined 	1763304020751
+USER	Carga API + Keycloak	17	END	1763304017720	1763304020751
+USER	Carga API + Keycloak	25	START	1763304020890	1763304020890
+REQUEST	25		Keycloak - Obter Token	1763304020891	1763304020895	KO	i.n.c.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:8081
+ERROR	GET /alunos: Failed to build request: No attribute named 'token' is defined 	1763304020899
+ERROR	GET /cursos: Failed to build request: No attribute named 'token' is defined 	1763304020920
+ERROR	POST /alunos: Failed to build request: No attribute named 'token' is defined 	1763304021070
+ERROR	POST /cursos: Failed to build request: No attribute named 'token' is defined 	1763304021081
+USER	Carga API + Keycloak	18	END	1763304018050	1763304021081
+USER	Carga API + Keycloak	26	START	1763304021390	1763304021390
+REQUEST	26		Keycloak - Obter Token	1763304021390	1763304021391	KO	i.n.c.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:8081
+ERROR	GET /alunos: Failed to build request: No attribute named 'token' is defined 	1763304021392
+ERROR	POST /alunos: Failed to build request: No attribute named 'token' is defined 	1763304021411
+ERROR	POST /cursos: Failed to build request: No attribute named 'token' is defined 	1763304021420
+ERROR	GET /cursos: Failed to build request: No attribute named 'token' is defined 	1763304021420
+USER	Carga API + Keycloak	19	END	1763304018391	1763304021420
+USER	Carga API + Keycloak	27	START	1763304021720	1763304021720
+REQUEST	27		Keycloak - Obter Token	1763304021722	1763304021725	KO	i.n.c.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:8081
+ERROR	GET /alunos: Failed to build request: No attribute named 'token' is defined 	1763304021729
+ERROR	GET /cursos: Failed to build request: No attribute named 'token' is defined 	1763304021751
+ERROR	POST /alunos: Failed to build request: No attribute named 'token' is defined 	1763304021921
+ERROR	POST /cursos: Failed to build request: No attribute named 'token' is defined 	1763304021920
+USER	Carga API + Keycloak	20	END	1763304018890	1763304021922
+USER	Carga API + Keycloak	28	START	1763304022050	1763304022050
+REQUEST	28		Keycloak - Obter Token	1763304022050	1763304022051	KO	i.n.c.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:8081
+ERROR	GET /alunos: Failed to build request: No attribute named 'token' is defined 	1763304022053
+ERROR	GET /cursos: Failed to build request: No attribute named 'token' is defined 	1763304022079
+USER	Carga API + Keycloak	29	START	1763304022390	1763304022390
+REQUEST	29		Keycloak - Obter Token	1763304022390	1763304022391	KO	i.n.c.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:8081
+ERROR	GET /alunos: Failed to build request: No attribute named 'token' is defined 	1763304022392
+ERROR	POST /alunos: Failed to build request: No attribute named 'token' is defined 	1763304022410
+ERROR	GET /cursos: Failed to build request: No attribute named 'token' is defined 	1763304022421
+ERROR	POST /cursos: Failed to build request: No attribute named 'token' is defined 	1763304022421
+USER	Carga API + Keycloak	21	END	1763304019390	1763304022421
+ERROR	POST /alunos: Failed to build request: No attribute named 'token' is defined 	1763304022741
+ERROR	POST /cursos: Failed to build request: No attribute named 'token' is defined 	1763304022750
+USER	Carga API + Keycloak	22	END	1763304019720	1763304022751
+USER	Carga API + Keycloak	30	START	1763304022890	1763304022890
+REQUEST	30		Keycloak - Obter Token	1763304022892	1763304022895	KO	i.n.c.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:8081
+ERROR	GET /alunos: Failed to build request: No attribute named 'token' is defined 	1763304022898
+ERROR	GET /cursos: Failed to build request: No attribute named 'token' is defined 	1763304022920
+ERROR	POST /alunos: Failed to build request: No attribute named 'token' is defined 	1763304023070
+ERROR	POST /cursos: Failed to build request: No attribute named 'token' is defined 	1763304023080
+USER	Carga API + Keycloak	23	END	1763304020051	1763304023081
+USER	Carga API + Keycloak	31	START	1763304023390	1763304023390
+REQUEST	31		Keycloak - Obter Token	1763304023391	1763304023392	KO	i.n.c.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:8081
+ERROR	GET /alunos: Failed to build request: No attribute named 'token' is defined 	1763304023393
+ERROR	POST /alunos: Failed to build request: No attribute named 'token' is defined 	1763304023410
+ERROR	POST /cursos: Failed to build request: No attribute named 'token' is defined 	1763304023420
+ERROR	GET /cursos: Failed to build request: No attribute named 'token' is defined 	1763304023420
+USER	Carga API + Keycloak	24	END	1763304020390	1763304023420
+USER	Carga API + Keycloak	32	START	1763304023720	1763304023720
+REQUEST	32		Keycloak - Obter Token	1763304023720	1763304023721	KO	i.n.c.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:8081
+ERROR	GET /alunos: Failed to build request: No attribute named 'token' is defined 	1763304023722
+ERROR	GET /cursos: Failed to build request: No attribute named 'token' is defined 	1763304023751
+ERROR	POST /alunos: Failed to build request: No attribute named 'token' is defined 	1763304023911
+ERROR	POST /cursos: Failed to build request: No attribute named 'token' is defined 	1763304023920
+USER	Carga API + Keycloak	25	END	1763304020890	1763304023921
+USER	Carga API + Keycloak	33	START	1763304024050	1763304024050
+REQUEST	33		Keycloak - Obter Token	1763304024050	1763304024052	KO	i.n.c.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:8081
+ERROR	GET /alunos: Failed to build request: No attribute named 'token' is defined 	1763304024053
+ERROR	GET /cursos: Failed to build request: No attribute named 'token' is defined 	1763304024080
+USER	Carga API + Keycloak	34	START	1763304024390	1763304024390
+REQUEST	34		Keycloak - Obter Token	1763304024391	1763304024393	KO	i.n.c.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:8081
+ERROR	GET /alunos: Failed to build request: No attribute named 'token' is defined 	1763304024396
+ERROR	POST /alunos: Failed to build request: No attribute named 'token' is defined 	1763304024410
+ERROR	GET /cursos: Failed to build request: No attribute named 'token' is defined 	1763304024420
+ERROR	POST /cursos: Failed to build request: No attribute named 'token' is defined 	1763304024420
+USER	Carga API + Keycloak	26	END	1763304021390	1763304024420
+ERROR	POST /alunos: Failed to build request: No attribute named 'token' is defined 	1763304024741
+ERROR	POST /cursos: Failed to build request: No attribute named 'token' is defined 	1763304024751
+USER	Carga API + Keycloak	27	END	1763304021720	1763304024751
+USER	Carga API + Keycloak	35	START	1763304024891	1763304024891
+REQUEST	35		Keycloak - Obter Token	1763304024892	1763304024895	KO	i.n.c.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:8081
+ERROR	GET /alunos: Failed to build request: No attribute named 'token' is defined 	1763304024898
+ERROR	GET /cursos: Failed to build request: No attribute named 'token' is defined 	1763304024921
+ERROR	POST /alunos: Failed to build request: No attribute named 'token' is defined 	1763304025071
+ERROR	POST /cursos: Failed to build request: No attribute named 'token' is defined 	1763304025080
+USER	Carga API + Keycloak	28	END	1763304022050	1763304025081
+USER	Carga API + Keycloak	36	START	1763304025390	1763304025390
+REQUEST	36		Keycloak - Obter Token	1763304025391	1763304025393	KO	i.n.c.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:8081
+ERROR	GET /alunos: Failed to build request: No attribute named 'token' is defined 	1763304025394
+ERROR	POST /alunos: Failed to build request: No attribute named 'token' is defined 	1763304025410
+ERROR	GET /cursos: Failed to build request: No attribute named 'token' is defined 	1763304025420
+ERROR	POST /cursos: Failed to build request: No attribute named 'token' is defined 	1763304025420
+USER	Carga API + Keycloak	29	END	1763304022390	1763304025420
+USER	Carga API + Keycloak	37	START	1763304025720	1763304025720
+REQUEST	37		Keycloak - Obter Token	1763304025721	1763304025722	KO	i.n.c.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:8081
+ERROR	GET /alunos: Failed to build request: No attribute named 'token' is defined 	1763304025723
+ERROR	GET /cursos: Failed to build request: No attribute named 'token' is defined 	1763304025740
+ERROR	POST /alunos: Failed to build request: No attribute named 'token' is defined 	1763304025910
+ERROR	POST /cursos: Failed to build request: No attribute named 'token' is defined 	1763304025921
+USER	Carga API + Keycloak	30	END	1763304022890	1763304025922
+USER	Carga API + Keycloak	38	START	1763304026050	1763304026050
+REQUEST	38		Keycloak - Obter Token	1763304026050	1763304026052	KO	i.n.c.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:8081
+ERROR	GET /alunos: Failed to build request: No attribute named 'token' is defined 	1763304026053
+ERROR	GET /cursos: Failed to build request: No attribute named 'token' is defined 	1763304026080
+USER	Carga API + Keycloak	39	START	1763304026390	1763304026390
+REQUEST	39		Keycloak - Obter Token	1763304026391	1763304026391	KO	i.n.c.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:8081
+ERROR	GET /alunos: Failed to build request: No attribute named 'token' is defined 	1763304026392
+ERROR	POST /alunos: Failed to build request: No attribute named 'token' is defined 	1763304026410
+ERROR	GET /cursos: Failed to build request: No attribute named 'token' is defined 	1763304026420
+ERROR	POST /cursos: Failed to build request: No attribute named 'token' is defined 	1763304026420
+USER	Carga API + Keycloak	31	END	1763304023390	1763304026420
+ERROR	POST /alunos: Failed to build request: No attribute named 'token' is defined 	1763304026741
+ERROR	POST /cursos: Failed to build request: No attribute named 'token' is defined 	1763304026751
+USER	Carga API + Keycloak	32	END	1763304023720	1763304026751
+USER	Carga API + Keycloak	40	START	1763304026891	1763304026891
+REQUEST	40		Keycloak - Obter Token	1763304026892	1763304026895	KO	i.n.c.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:8081
+ERROR	GET /alunos: Failed to build request: No attribute named 'token' is defined 	1763304026899
+ERROR	GET /cursos: Failed to build request: No attribute named 'token' is defined 	1763304026920
+ERROR	POST /alunos: Failed to build request: No attribute named 'token' is defined 	1763304027071
+ERROR	POST /cursos: Failed to build request: No attribute named 'token' is defined 	1763304027080
+USER	Carga API + Keycloak	33	END	1763304024050	1763304027080
+USER	Carga API + Keycloak	41	START	1763304027390	1763304027390
+REQUEST	41		Keycloak - Obter Token	1763304027390	1763304027391	KO	i.n.c.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:8081
+ERROR	GET /alunos: Failed to build request: No attribute named 'token' is defined 	1763304027392
+ERROR	POST /alunos: Failed to build request: No attribute named 'token' is defined 	1763304027410
+ERROR	GET /cursos: Failed to build request: No attribute named 'token' is defined 	1763304027420
+ERROR	POST /cursos: Failed to build request: No attribute named 'token' is defined 	1763304027420
+USER	Carga API + Keycloak	34	END	1763304024390	1763304027421
+USER	Carga API + Keycloak	42	START	1763304027720	1763304027720
+REQUEST	42		Keycloak - Obter Token	1763304027721	1763304027723	KO	i.n.c.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:8081
+ERROR	GET /alunos: Failed to build request: No attribute named 'token' is defined 	1763304027723
+ERROR	GET /cursos: Failed to build request: No attribute named 'token' is defined 	1763304027750
+ERROR	POST /alunos: Failed to build request: No attribute named 'token' is defined 	1763304027911
+ERROR	POST /cursos: Failed to build request: No attribute named 'token' is defined 	1763304027920
+USER	Carga API + Keycloak	35	END	1763304024891	1763304027921
+USER	Carga API + Keycloak	43	START	1763304028050	1763304028050
+REQUEST	43		Keycloak - Obter Token	1763304028052	1763304028054	KO	i.n.c.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:8081
+ERROR	GET /alunos: Failed to build request: No attribute named 'token' is defined 	1763304028057
+ERROR	GET /cursos: Failed to build request: No attribute named 'token' is defined 	1763304028081
+USER	Carga API + Keycloak	44	START	1763304028390	1763304028390
+REQUEST	44		Keycloak - Obter Token	1763304028390	1763304028391	KO	i.n.c.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:8081
+ERROR	GET /alunos: Failed to build request: No attribute named 'token' is defined 	1763304028392
+ERROR	POST /alunos: Failed to build request: No attribute named 'token' is defined 	1763304028410
+ERROR	GET /cursos: Failed to build request: No attribute named 'token' is defined 	1763304028420
+ERROR	POST /cursos: Failed to build request: No attribute named 'token' is defined 	1763304028420
+USER	Carga API + Keycloak	36	END	1763304025390	1763304028420
+ERROR	POST /alunos: Failed to build request: No attribute named 'token' is defined 	1763304028741
+ERROR	POST /cursos: Failed to build request: No attribute named 'token' is defined 	1763304028750
+USER	Carga API + Keycloak	37	END	1763304025720	1763304028751
+USER	Carga API + Keycloak	45	START	1763304028890	1763304028890
+REQUEST	45		Keycloak - Obter Token	1763304028892	1763304028895	KO	i.n.c.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:8081
+ERROR	GET /alunos: Failed to build request: No attribute named 'token' is defined 	1763304028897
+ERROR	GET /cursos: Failed to build request: No attribute named 'token' is defined 	1763304028921
+ERROR	POST /alunos: Failed to build request: No attribute named 'token' is defined 	1763304029070
+ERROR	POST /cursos: Failed to build request: No attribute named 'token' is defined 	1763304029081
+USER	Carga API + Keycloak	38	END	1763304026050	1763304029082
+USER	Carga API + Keycloak	46	START	1763304029390	1763304029390
+REQUEST	46		Keycloak - Obter Token	1763304029391	1763304029393	KO	i.n.c.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:8081
+ERROR	GET /alunos: Failed to build request: No attribute named 'token' is defined 	1763304029394
+ERROR	POST /alunos: Failed to build request: No attribute named 'token' is defined 	1763304029410
+ERROR	GET /cursos: Failed to build request: No attribute named 'token' is defined 	1763304029420
+ERROR	POST /cursos: Failed to build request: No attribute named 'token' is defined 	1763304029420
+USER	Carga API + Keycloak	39	END	1763304026390	1763304029420
+USER	Carga API + Keycloak	47	START	1763304029720	1763304029720
+REQUEST	47		Keycloak - Obter Token	1763304029721	1763304029722	KO	i.n.c.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:8081
+ERROR	GET /alunos: Failed to build request: No attribute named 'token' is defined 	1763304029723
+ERROR	GET /cursos: Failed to build request: No attribute named 'token' is defined 	1763304029751
+ERROR	POST /alunos: Failed to build request: No attribute named 'token' is defined 	1763304029911
+ERROR	POST /cursos: Failed to build request: No attribute named 'token' is defined 	1763304029920
+USER	Carga API + Keycloak	40	END	1763304026891	1763304029921
+USER	Carga API + Keycloak	48	START	1763304030050	1763304030050
+REQUEST	48		Keycloak - Obter Token	1763304030051	1763304030053	KO	i.n.c.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:8081
+ERROR	GET /alunos: Failed to build request: No attribute named 'token' is defined 	1763304030054
+ERROR	GET /cursos: Failed to build request: No attribute named 'token' is defined 	1763304030081
+USER	Carga API + Keycloak	49	START	1763304030390	1763304030390
+REQUEST	49		Keycloak - Obter Token	1763304030390	1763304030391	KO	i.n.c.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:8081
+ERROR	GET /alunos: Failed to build request: No attribute named 'token' is defined 	1763304030392
+ERROR	POST /alunos: Failed to build request: No attribute named 'token' is defined 	1763304030410
+ERROR	POST /cursos: Failed to build request: No attribute named 'token' is defined 	1763304030420
+ERROR	GET /cursos: Failed to build request: No attribute named 'token' is defined 	1763304030420
+USER	Carga API + Keycloak	41	END	1763304027390	1763304030421
+ERROR	POST /alunos: Failed to build request: No attribute named 'token' is defined 	1763304030741
+ERROR	POST /cursos: Failed to build request: No attribute named 'token' is defined 	1763304030751
+USER	Carga API + Keycloak	42	END	1763304027720	1763304030752
+USER	Carga API + Keycloak	50	START	1763304030890	1763304030890
+REQUEST	50		Keycloak - Obter Token	1763304030892	1763304030895	KO	i.n.c.AbstractChannel$AnnotatedConnectException: Connection refused: localhost/127.0.0.1:8081
+ERROR	GET /alunos: Failed to build request: No attribute named 'token' is defined 	1763304030897
+ERROR	GET /cursos: Failed to build request: No attribute named 'token' is defined 	1763304030920
+ERROR	POST /alunos: Failed to build request: No attribute named 'token' is defined 	1763304031071
+ERROR	POST /cursos: Failed to build request: No attribute named 'token' is defined 	1763304031080
+USER	Carga API + Keycloak	43	END	1763304028050	1763304031081
+ERROR	POST /alunos: Failed to build request: No attribute named 'token' is defined 	1763304031410
+ERROR	POST /cursos: Failed to build request: No attribute named 'token' is defined 	1763304031420
+ERROR	GET /cursos: Failed to build request: No attribute named 'token' is defined 	1763304031420
+USER	Carga API + Keycloak	44	END	1763304028390	1763304031421
+ERROR	GET /cursos: Failed to build request: No attribute named 'token' is defined 	1763304031750
+ERROR	POST /alunos: Failed to build request: No attribute named 'token' is defined 	1763304031910
+ERROR	POST /cursos: Failed to build request: No attribute named 'token' is defined 	1763304031920
+USER	Carga API + Keycloak	45	END	1763304028890	1763304031920
+ERROR	GET /cursos: Failed to build request: No attribute named 'token' is defined 	1763304032081
+ERROR	POST /cursos: Failed to build request: No attribute named 'token' is defined 	1763304032420
+ERROR	GET /cursos: Failed to build request: No attribute named 'token' is defined 	1763304032420
+USER	Carga API + Keycloak	46	END	1763304029390	1763304032421
+ERROR	POST /cursos: Failed to build request: No attribute named 'token' is defined 	1763304032750
+USER	Carga API + Keycloak	47	END	1763304029720	1763304032750
+ERROR	GET /cursos: Failed to build request: No attribute named 'token' is defined 	1763304032920
+ERROR	POST /cursos: Failed to build request: No attribute named 'token' is defined 	1763304033080
+USER	Carga API + Keycloak	48	END	1763304030050	1763304033081
+ERROR	POST /cursos: Failed to build request: No attribute named 'token' is defined 	1763304033420
+USER	Carga API + Keycloak	49	END	1763304030390	1763304033421
+ERROR	POST /cursos: Failed to build request: No attribute named 'token' is defined 	1763304033920
+USER	Carga API + Keycloak	50	END	1763304030890	1763304033921

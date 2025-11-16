@@ -1,0 +1,10 @@
+{
+  "simulation": "AlunosSimulation",
+  "simulationId": "alunossimulation",
+  "start": 1763303628968,
+  "description": "",
+  "scenarios": ["Carga de ALUNOS"],
+  "assertions": [
+
+  ]
+}
