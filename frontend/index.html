@@ -328,7 +328,7 @@
             try {
                 console.log('⏳ Aguardando resposta da API (pode levar até 3 minutos se estiver "dormindo")...');
                 
-                const response = await fetch(`${API_URL}/cursos/`);
+                const response = await fetch(`${API_URL}/cursos`);
                 
                 if (!response.ok) {
                     console.error('API retornou erro:', response.status);
@@ -363,7 +363,7 @@
             container.innerHTML = '<div class="loading">Carregando cursos...</div>';
             
             try {
-                const response = await fetch(`${API_URL}/cursos/`);
+                const response = await fetch(`${API_URL}/cursos`);
                 
                 if (!response.ok) {
                     throw new Error(`Erro ${response.status}: ${response.statusText}`);
@@ -412,7 +412,7 @@
                         ❌ Erro ao carregar cursos<br>
                         <small style="color: #e53e3e; margin-top: 10px; display: block;">
                             ${error.message}<br>
-                            URL: ${API_URL}/cursos/
+                            URL: ${API_URL}/cursos
                         </small>
                     </div>`;
             }
@@ -424,7 +424,7 @@
             container.innerHTML = '<div class="loading">Carregando alunos...</div>';
             
             try {
-                const response = await fetch(`${API_URL}/alunos/`);
+                const response = await fetch(`${API_URL}/alunos`);
                 
                 if (!response.ok) {
                     throw new Error(`Erro ${response.status}: ${response.statusText}`);
@@ -477,7 +477,7 @@
                         ❌ Erro ao carregar alunos<br>
                         <small style="color: #e53e3e; margin-top: 10px; display: block;">
                             ${error.message}<br>
-                            URL: ${API_URL}/alunos/
+                            URL: ${API_URL}/alunos
                         </small>
                     </div>`;
             }
@@ -502,7 +502,7 @@
         // Carregar cursos no select
         async function loadCursosSelect() {
             try {
-                const response = await fetch(`${API_URL}/cursos/`);
+                const response = await fetch(`${API_URL}/cursos`);
                 const cursos = await response.json();
                 
                 const select = document.getElementById('aluno-curso');
@@ -527,7 +527,7 @@
             };
             
             try {
-                const url = id ? `${API_URL}/cursos/${id}` : `${API_URL}/cursos/`;
+                const url = id ? `${API_URL}/cursos/${id}` : `${API_URL}/cursos`;
                 const method = id ? 'PUT' : 'POST';
                 
                 const response = await fetch(url, {
@@ -562,7 +562,7 @@
             };
             
             try {
-                const url = id ? `${API_URL}/alunos/${id}` : `${API_URL}/alunos/`;
+                const url = id ? `${API_URL}/alunos/${id}` : `${API_URL}/alunos`;
                 const method = id ? 'PUT' : 'POST';
                 
                 const response = await fetch(url, {
