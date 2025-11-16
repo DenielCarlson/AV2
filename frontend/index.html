@@ -516,7 +516,7 @@
             }
         }
 
-        // Salvar curso
+        // Salvar curso - CORRIGIDO
         async function saveCurso(event) {
             event.preventDefault();
             
@@ -527,8 +527,21 @@
             };
             
             try {
-                const url = id ? `${API_URL}/cursos/${id}` : `${API_URL}/cursos`;
-                const method = id ? 'PUT' : 'POST';
+                let url, method;
+                
+                if (id) {
+                    // EDITAR - usar PUT com o ID na URL
+                    url = `${API_URL}/cursos/${id}`;
+                    method = 'PUT';
+                    // Incluir o ID no body para garantir que a API saiba que é edição
+                    curso.id = parseInt(id);
+                } else {
+                    // CRIAR - usar POST sem ID
+                    url = `${API_URL}/cursos`;
+                    method = 'POST';
+                }
+                
+                console.log('Salvando curso:', { method, url, curso });
                 
                 const response = await fetch(url, {
                     method: method,
@@ -539,7 +552,11 @@
                 if (response.ok) {
                     closeModal('curso');
                     loadCursos();
-                    alert('Curso salvo com sucesso!');
+                    alert(id ? 'Curso atualizado com sucesso!' : 'Curso criado com sucesso!');
+                } else {
+                    const error = await response.text();
+                    console.error('Erro da API:', error);
+                    alert('Erro ao salvar curso. Verifique o console.');
                 }
             } catch (error) {
                 alert('Erro ao salvar curso');
@@ -547,7 +564,7 @@
             }
         }
 
-        // Salvar aluno
+        // Salvar aluno - CORRIGIDO
         async function saveAluno(event) {
             event.preventDefault();
             
@@ -562,8 +579,21 @@
             };
             
             try {
-                const url = id ? `${API_URL}/alunos/${id}` : `${API_URL}/alunos`;
-                const method = id ? 'PUT' : 'POST';
+                let url, method;
+                
+                if (id) {
+                    // EDITAR - usar PUT com o ID na URL
+                    url = `${API_URL}/alunos/${id}`;
+                    method = 'PUT';
+                    // Incluir o ID no body para garantir que a API saiba que é edição
+                    aluno.id = parseInt(id);
+                } else {
+                    // CRIAR - usar POST sem ID
+                    url = `${API_URL}/alunos`;
+                    method = 'POST';
+                }
+                
+                console.log('Salvando aluno:', { method, url, aluno });
                 
                 const response = await fetch(url, {
                     method: method,
@@ -574,7 +604,11 @@
                 if (response.ok) {
                     closeModal('aluno');
                     loadAlunos();
-                    alert('Aluno salvo com sucesso!');
+                    alert(id ? 'Aluno atualizado com sucesso!' : 'Aluno criado com sucesso!');
+                } else {
+                    const error = await response.text();
+                    console.error('Erro da API:', error);
+                    alert('Erro ao salvar aluno. Verifique o console.');
                 }
             } catch (error) {
                 alert('Erro ao salvar aluno');
@@ -593,7 +627,7 @@
                 document.getElementById('curso-carga').value = curso.cargaHoraria;
                 document.getElementById('modal-curso-title').textContent = 'Editar Curso';
                 
-                openModal('curso');
+                document.getElementById('modal-curso').classList.add('active');
             } catch (error) {
                 alert('Erro ao carregar curso');
                 console.error(error);
@@ -615,14 +649,14 @@
                 document.getElementById('aluno-curso').value = aluno.curso?.id || '';
                 document.getElementById('modal-aluno-title').textContent = 'Editar Aluno';
                 
-                openModal('aluno');
+                document.getElementById('modal-aluno').classList.add('active');
             } catch (error) {
                 alert('Erro ao carregar aluno');
                 console.error(error);
             }
         }
 
-        // Deletar curso
+        // Deletar curso - TRATAMENTO DE ERRO 500
         async function deleteCurso(id) {
             if (!confirm('Deseja realmente deletar este curso?')) return;
             
@@ -634,6 +668,11 @@
                 if (response.ok) {
                     loadCursos();
                     alert('Curso deletado com sucesso!');
+                } else if (response.status === 500) {
+                    // Erro 500 geralmente significa que há alunos vinculados
+                    alert('❌ Não é possível deletar este curso!\n\n⚠️ Este curso possui alunos vinculados.\n\nPara deletar o curso, primeiro remova ou transfira todos os alunos para outro curso.');
+                } else {
+                    alert(`Erro ao deletar curso. Código: ${response.status}`);
                 }
             } catch (error) {
                 alert('Erro ao deletar curso');
@@ -653,6 +692,8 @@
                 if (response.ok) {
                     loadAlunos();
                     alert('Aluno deletado com sucesso!');
+                } else {
+                    alert(`Erro ao deletar aluno. Código: ${response.status}`);
                 }
             } catch (error) {
                 alert('Erro ao deletar aluno');
